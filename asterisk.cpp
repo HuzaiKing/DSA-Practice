@@ -251,18 +251,18 @@ int main()
     C C C
     */
 
-//    int i=1;
-//    while(i<=no)
-//    {
-//     int j=1;
-//     while(j<=i)
-//     {
-//         cout<<char(64+i)<<" ";
-//         j++;
-//     }
-//     cout<<endl;
-//     i++;
-//    }
+    //    int i=1;
+    //    while(i<=no)
+    //    {
+    //     int j=1;
+    //     while(j<=i)
+    //     {
+    //         cout<<char(64+i)<<" ";
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    //    }
 
     /*
     A
@@ -271,20 +271,20 @@ int main()
     G H I J
     */
 
-//    int i=1;
-//    char c='A';
-//    while(i<=no)
-//    {
-//     int j=1;
-//     while(j<=i)
-//     {
-//         cout<<c<<" ";
-//         c++;
-//         j++;
-//     }
-//     cout<<endl;
-//     i++;
-//    }
+    //    int i=1;
+    //    char c='A';
+    //    while(i<=no)
+    //    {
+    //     int j=1;
+    //     while(j<=i)
+    //     {
+    //         cout<<c<<" ";
+    //         c++;
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    //    }
 
     /*
     A
@@ -293,19 +293,18 @@ int main()
     D E F G
     */
 
-//    int i=1;
-//    while(i<=no)
-//    {
-//     int j=1;
-//     while(j<=i)
-//     {
-//         cout<<char(64+i+j-1)<<" ";
-//         j++;
-//     }
-//     cout<<endl;
-//     i++;
-//    }
-
+    //    int i=1;
+    //    while(i<=no)
+    //    {
+    //     int j=1;
+    //     while(j<=i)
+    //     {
+    //         cout<<char(64+i+j-1)<<" ";
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    //    }
 
     /*
     D
@@ -313,18 +312,176 @@ int main()
     B C D
     A B C D
     */
-//    int i=1;
-//    while(i<=no)
-//    {
-//     int j=1;
-//     while(j<=i)
-//     {
-//         cout<<char(64+no-i+j)<<" ";
-//         j++;
-//     }
-//     cout<<endl;
-//     i++;
-//    }
+    //    int i=1;
+    //    while(i<=no)
+    //    {
+    //     int j=1;
+    //     while(j<=i)
+    //     {
+    //         cout<<char(64+no-i+j)<<" ";
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    //    }
 
+    /*
+     *
+     **
+     ***
+     ****
+     */
+    //    int i=1;
+    //    while(i<=no)
+    //    {
+    //     int j=1;
+    //     while(j<=no-i)
+    //     {
+    //         cout<<" ";
+    //         j++;
+    //     }
+    //     j=1;
+    //     while(j<=i)
+    //     {
+    //         cout<<"*";
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    //    }
 
+    /*
+
+    ****
+    ***
+    **
+    *
+
+    */
+
+    // int i = 1;
+    // while (i <= no)
+    // {
+    //     int j = 1;
+    //     while (j <= no-i+1)
+    //     {
+    //         cout << "*";
+    //         j++;
+    //     }
+    //     cout << endl;
+    //     i++;
+    // }
+
+    /*
+
+    ****
+     ***
+      **
+       *
+
+    */
+
+    // int i = 1;
+    // while (i <= no)
+    // {
+
+    //     int j = 1;
+    //     while(j<=i-1)
+    //     {
+    //         cout<<" ";
+    //         j++;
+    //     }
+    //     j=1;
+    //     while (j <= no - i + 1)
+    //     {
+    //         cout << "*";
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+
+    /*
+    1 1 1 1
+      2 2 2
+        3 3
+          4
+    */
+
+    // int i = 1;
+    // while (i <= no)
+    // {
+
+    //     int j = 1;
+    //     while (j <= i - 1)
+    //     {
+    //         cout << " ";
+    //         j++;
+    //     }
+    //     j = 1;
+    //     while (j <= no - i + 1)
+    //     {
+    //         cout << i;
+    //         j++;
+    //     }
+    //     cout << endl;
+    //     i++;
+    // }
+
+    /*
+          1
+        2 2
+      3 3 3
+    4 4 4 4
+
+    */
+
+    // int i = 1;
+    // while (i <= no)
+    // {
+
+    //     int j = 1;
+    //     while (j <= no - i)
+    //     {
+    //         cout << " ";
+    //         j++;
+    //     }
+    //     j = 1;
+    //     while (j <= i)
+    //     {
+    //         cout << i;
+    //         j++;
+    //     }
+    //     cout << endl;
+    //     i++;
+    // }
+
+    /*
+
+    1 2 3 4
+      2 3 4
+        3 4
+          4
+
+    */
+
+    // int i = 1;
+    // while (i <= no)
+    // {
+    //     int j = 1;
+    //     while (j <= i - 1)
+    //     {
+    //         cout << " ";
+    //         j++;
+    //     }
+    //     j = 1;
+    //     while (j <= no - i + 1)
+    //     {
+    //         cout << i + j - 1;
+    //         j++;
+    //     }
+
+    //     cout << endl;
+    //     i++;
+    // }
 }
