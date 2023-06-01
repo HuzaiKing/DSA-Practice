@@ -1,4 +1,5 @@
 #include <iostream>
+#include<cmath>
 using namespace std;
 int main()
 {
@@ -493,28 +494,64 @@ int main()
 
     */
 
-   int i=1;
-   while(i<=no)
-   {
-    int j=1;
-    while(j<=no-i)
+//    int i=1;
+//    while(i<=no)
+//    {
+//     int j=1;
+//     while(j<=no-i)
+//     {
+//         cout<<" ";
+//         j++;
+//     }
+//     j=1;
+//     while(j<=i)
+//     {
+//         cout<<j;
+//         j++;
+//     }
+//     j=i-1;
+//     while(j>=1)
+//     {
+//         cout<<j;
+//         j--;
+//     }
+//     cout<<endl;
+//     i++;
+//    }
+
+    /*
+    1234554321
+    1234**4321
+    123****321
+    12******21
+    1********1
+    */
+
+    int i=1;
+    while(i<=no)
     {
-        cout<<" ";
-        j++;
+        int j=1;
+        while(j<=no-i+1)
+        {
+            cout<<j;
+            j++;
+        }
+        int l=1;
+        while(l<=2*(i-1))
+        {
+            cout<<"*";
+            l++;
+        }
+        int k=j-1;
+        while(k>=1)
+        {
+            cout<<k;
+            k--;
+        }
+        cout<<endl;
+        i++;
     }
-    j=1;
-    while(j<=i)
-    {
-        cout<<j;
-        j++;
-    }
-    j=i-1;
-    while(j>=1)
-    {
-        cout<<j;
-        j--;
-    }
-    cout<<endl;
-    i++;
-   }
+
+    
+
 }
